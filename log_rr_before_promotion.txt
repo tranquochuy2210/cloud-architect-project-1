@@ -1,0 +1,11 @@
+mysql> select* from test_connection;
++-------------+------+
+| employee_id | name |
++-------------+------+
+|         123 | huy  |
+|        1234 | huy  |
++-------------+------+
+2 rows in set (0.01 sec)
+
+mysql> insert into test_connection(employee_id,name) values (456, 'minh');
+ERROR 1290 (HY000): The MySQL server is running with the --read-only option so it cannot execute this statement

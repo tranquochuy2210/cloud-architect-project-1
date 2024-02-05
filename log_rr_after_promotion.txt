@@ -1,0 +1,13 @@
+mysql> insert into test_connection(employee_id,name) values (360,'nam');
+Query OK, 1 row affected (0.00 sec)
+
+mysql> select* from test_connection;
++-------------+------+
+| employee_id | name |
++-------------+------+
+|         123 | huy  |
+|         360 | nam  |
+|         456 | minh |
+|        1234 | huy  |
++-------------+------+
+4 rows in set (0.00 sec)
